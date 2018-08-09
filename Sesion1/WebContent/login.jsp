@@ -7,7 +7,7 @@ session="true" language="java" import="java.util.*"%>
 <b>Verificación de usuario</B>
 <p>
 <%
-//hola
+//holaaa
 if(request.getParameter("error")!=null)
 {
 out.println(request.getParameter("error"));
