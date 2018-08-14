@@ -26,6 +26,8 @@ return false; } }
  		<% if(request.getParameter("error")!=null) 
  		{  out.println(request.getParameter("error"));
  		}
+ 		
+ 		//configurar canvas
  		%>
   </td> 
 <td><input type="submit" name="submit" value="Submit"></td> </tr> <tr> <td> </td>

@@ -22,6 +22,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 </head>
 <body>
+
  <div id="map-canvas" style="height:500px; width:700px"></div>
 </body>
 </html>
